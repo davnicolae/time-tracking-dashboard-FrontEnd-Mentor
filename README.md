@@ -1,6 +1,6 @@
 # Frontend Mentor - Time tracking dashboard solution
 
-This is a solution to the [Time tracking dashboard challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Time tracking dashboard challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -10,8 +10,6 @@ This is a solution to the [Time tracking dashboard challenge on Frontend Mentor]
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
@@ -35,12 +33,13 @@ Users should be able to:
 
 ## My process
 
-I've used desktop-first design approach, therefore: 
-- started creating base HTML structure 
+I've used desktop-first design approach, therefore:
+
+- started creating base HTML structure
 - created layout using Grid & Flexbox
 - added CSS styles
 - added responsiveness using @media queries
-- added basic functionality using Javascript 
+- added basic functionality using Javascript
 - deployed result on GitHub pages
 
 ### Built with
@@ -50,7 +49,6 @@ I've used desktop-first design approach, therefore:
 - Flexbox
 - CSS Grid
 - Desktop-first workflow
-
 
 ## Author
 
