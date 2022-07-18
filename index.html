@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Time tracking dashboard</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        color: #bdc1ff;
+      }
+      .attribution a {
+        color: #5847eb;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="container grid">
+        <div class="card item-a">
+          <div class="principal-card padding-30">
+            <div class="flex-column">
+              <div>
+                <img class="picture" src="/images/image-jeremy.png" alt="" />
+              </div>
+              <div>
+                <span>Report for</span>
+                <h1>Jeremy Robson</h1>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <ul class="padding-30">
+              <li id="daily" class="period active">Daily</li>
+              <li id="weekly" class="period">Weekly</li>
+              <li id="monthly" class="period">Monthly</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card bg-work">
+          <div class="bg">
+            <div>
+              <img class="icon" src="/images/icon-work.svg" alt="work" />
+            </div>
+          </div>
+          <div class="padding-30 content-card">
+            <div class="flex">
+              <strong>Work</strong>
+              <img
+                class="menu-dots"
+                src="/images/icon-ellipsis.svg"
+                alt="menu-dots"
+              />
+            </div>
+
+            <div class="flex-d">
+              <h2>5hrs</h2>
+              <p class="last-timer">Last day - 7 hrs</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-play">
+          <div class="bg">
+            <div>
+              <img class="icon" src="/images/icon-play.svg" alt="play" />
+            </div>
+          </div>
+          <div class="padding-30 content-card">
+            <div class="flex">
+              <strong>Play</strong>
+              <img
+                class="menu-dots"
+                src="/images/icon-ellipsis.svg"
+                alt="menu-dots"
+              />
+            </div>
+            <div class="flex-d">
+              <h2>1hr</h2>
+              <p class="last-timer">Last day - 2 hrs</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-study">
+          <div class="bg">
+            <div>
+              <img class="icon" src="/images/icon-study.svg" alt="study" />
+            </div>
+          </div>
+          <div class="padding-30 content-card">
+            <div class="flex">
+              <strong> Study</strong>
+              <img
+                class="menu-dots"
+                src="/images/icon-ellipsis.svg"
+                alt="menu-dots"
+              />
+            </div>
+            <div class="flex-d">
+              <h2>0hrs</h2>
+              <p class="last-timer">Last day - 1 hrs</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-exercise">
+          <div class="bg">
+            <div>
+              <img
+                class="icon"
+                src="/images/icon-exercise.svg"
+                alt="exercise"
+              />
+            </div>
+          </div>
+          <div class="padding-30 content-card">
+            <div class="flex">
+              <strong>Exercise</strong>
+              <img
+                class="menu-dots"
+                src="/images/icon-ellipsis.svg"
+                alt="menu-dots"
+              />
+            </div>
+
+            <div class="flex-d">
+              <h2>1hr</h2>
+              <p class="last-timer">Last day - 1 hrs</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-social">
+          <div class="bg">
+            <div>
+              <img class="icon" src="/images/icon-social.svg" alt="social" />
+            </div>
+          </div>
+          <div class="padding-30 content-card">
+            <div class="flex">
+              <strong>Social</strong>
+              <img
+                class="menu-dots"
+                src="/images/icon-ellipsis.svg"
+                alt="menu-dots"
+              />
+            </div>
+            <div class="flex-d">
+              <h2>1hr</h2>
+              <p class="last-timer">Last day - 3 hrs</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-self-care">
+          <div class="bg">
+            <div>
+              <img
+                class="icon"
+                src="/images/icon-self-care.svg"
+                alt="self-care"
+              />
+            </div>
+          </div>
+          <div class="padding-30 content-card">
+            <div class="flex">
+              <strong>Self Care</strong>
+              <img
+                class="menu-dots"
+                src="/images/icon-ellipsis.svg"
+                alt="menu-dots"
+              />
+            </div>
+
+            <div class="flex-d">
+              <h2>0hrs</h2>
+              <p class="last-timer">Last day - 1 hrs</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">David Nicolae</a>.
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
